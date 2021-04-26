@@ -1,10 +1,10 @@
 
-#IPK projekt - packet sniffer
-##autor: Ladislav Dokoupil
+# IPK projekt - packet sniffer
+## autor: Ladislav Dokoupil
 CLI program pro výpis zachycených paketů v hexadecimální podobě, který
 je vypisován na standardní výstup.
 
-##přiklady spuštění
+## přiklady spuštění
 
 `./ipk-sniffer -i` výpis rozhraní k naslouchání.
 
@@ -13,7 +13,7 @@ je vypisován na standardní výstup.
 `./ipk-sniffer -i NÁZEV --tcp --port 80 -n -1` výpis TCP paketů na portu 80 do ukončení programu.
 
 
-##seznam odevzdaných souborů
+## seznam odevzdaných souborů
 * main.cpp
 * README.md
 * Makefile
